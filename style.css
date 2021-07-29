@@ -71,8 +71,8 @@ h1.main, p.demos {
 }
 
 .ani-in {
-	/* position: absolute;
-	top: 50%; */
+	position: absolute;
+	top: 50%;
 	line-height: 100px;
 	/* height: 90px; */
 	margin-top: -50px;
@@ -125,6 +125,7 @@ h1.main, p.demos {
 	-ms-animation-delay: 6s;
 	animation-delay: 6s;
 }
+
 .sp-container .frame-6 > span {
 	color: white;
 }
@@ -142,6 +143,22 @@ h1.main, p.demos {
     display: inline-block;
     position: relative;
     bottom: -14px;
+}
+.sp-container .frame-8 {
+	color: #fff;
+	top: 145%;
+	left: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 120px;
+	-webkit-animation: blurWFadeIn8 1s ease-in backwards;
+	-moz-animation: blurWFadeIn8 1s ease-in backwards;
+	-ms-animation: blurWFadeIn8 1s ease-in backwards;
+	animation: blurWFadeIn8 1s ease-in backwards;
+	-webkit-animation-delay: 9s;
+	-moz-animation-delay: 9s;
+	-ms-animation-delay: 9s;
+	animation-delay: 9s;
 }
 
 
@@ -238,6 +255,18 @@ h1.main, p.demos {
 	100% {
 		opacity: 1;
 		width: 4ch;
+		text-shadow: 0px 0px 1px #fff;
+		-webkit-transform: scale(1);
+	}
+}
+@-webkit-keyframes blurWFadeIn8 {
+	0% {
+		opacity: 0;
+		text-shadow: 0px 0px 100px #fff;
+		-webkit-transform: scale(1.5);
+	}
+	100% {
+		opacity: 1;
 		text-shadow: 0px 0px 1px #fff;
 		-webkit-transform: scale(1);
 	}
@@ -432,7 +461,7 @@ h2.frame-4 a {
 		height: 120px;
 	}
 	.sp-container .frame-6 {
-		margin-left: -47px;
+		margin-left: -53px;
 	}
 	.sp-container .frame-7 {
 		width: 105px;
@@ -470,9 +499,6 @@ h2.frame-4 a {
 		top: 125%;
 		font-size: 70px;
 	}
-	.sp-container .frame-6 {
-		margin-left: -42px;
-	}
 
   }
 
@@ -482,7 +508,7 @@ h2.frame-4 a {
 		font-size: 100px ;
 	}
 	.sp-container .frame-6 {
-		margin-left: -34px;
+		margin-left: -38px;
 	}
 	.sp-container h2 {		
 		font-size: 85px;
@@ -519,7 +545,7 @@ h2.frame-4 a {
 		font-size: 86px ;
 	}
 	.sp-container .frame-6 {
-		margin-left: -30px;
+		margin-left: -33px;
 	}
 	.sp-container h2 {		
 		font-size: 72px;
@@ -562,7 +588,7 @@ h2.frame-4 a {
 			height: 65px;
 		}
 		.sp-container .frame-6 {
-			margin-left: -24px;
+			margin-left: -28px;
 		}
 		.sp-container .frame-8 {
 			top: 115%;
@@ -578,7 +604,7 @@ h2.frame-4 a {
 		font-size: 66px ;
 	}
 	.sp-container .frame-6 {
-		margin-left: -22px;
+		margin-left: -25px;
 	}
 	.sp-container h2 {		
 		font-size: 63px;
@@ -619,7 +645,7 @@ h2.frame-4 a {
 		font-size: 57px ;
 	}
 	.sp-container .frame-6 {
-		margin-left: -19px;
+		margin-left: -22px;
 	}
 	.sp-container h2 {		
 		font-size: 56px;
@@ -661,7 +687,7 @@ h2.frame-4 a {
 		font-size: 42px ;
 	}
 	.sp-container .frame-6 {
-		margin-left: -14px;
+		margin-left: -16px;
 	}
 	.sp-container h2 {		
 		font-size: 42px;
@@ -686,7 +712,7 @@ h2.frame-4 a {
 		font-size: 38px ;
 	}
 	.sp-container .frame-6 {
-		margin-left: -13px;
+		margin-left: -14px;
 	}
 
 	.sp-container .frame-7 {
@@ -721,7 +747,7 @@ h2.frame-4 a {
 		font-size: 33px ;
 	}
 	.sp-container .frame-6 {
-		margin-left: -11px;
+		margin-left: -13px;
 	}
 	.sp-container .frame-7 {
 		margin-right: 5px;

@@ -1,0 +1,126 @@
+@font-face {
+	font-family: "Futura";
+	font-weight: 200;
+	src: url("futura-v2/7a0bcc93-4ec5-4962-8f7d-b0a2ba0cad4b.eot?#iefix");
+	src: url("futura-v2/7a0bcc93-4ec5-4962-8f7d-b0a2ba0cad4b.eot?#iefix") format("eot"), 
+		 url("futura-v2/9432cd19-89de-4884-bef2-8507ee5588e0.woff") format("woff"), 
+		 url("futura-v2/dc4205f2-bbb2-4c49-a37b-c3ed1585f174.ttf") format("truetype"),
+		 url("futura-v2/8b01c1a5-04c8-4a6b-a925-79f92a72cbef.svg#ff86acda-0d1f-4f82-96be-91b0d94bad49") format("svg")
+}
+
+@font-face {
+	font-family: "Futura";
+	font-style: italic;
+	font-weight: 200;
+	src: url("futura-v2/539fe5e2-8e50-4928-912a-944b27046aa6.eot?#iefix");
+	src: url("futura-v2/539fe5e2-8e50-4928-912a-944b27046aa6.eot?#iefix") format("eot"),
+		 url("futura-v2/b7d0fe1c-6ba4-4cba-9a0a-af7b1bb6a623.woff") format("woff"),
+		 url("futura-v2/b4875bcd-e66d-4824-9b53-990ff5329382.ttf") format("truetype"),
+		 url("futura-v2/8c2e3bbf-c736-496e-ac3c-30426e2adcc6.svg#8c2e3bbf-c736-496e-ac3c-30426e2adcc6") format("svg")
+}
+
+@font-face {
+	font-family: "Futura";
+	font-weight: 400;
+	src: url("futura-v2/a3756428-debf-4a86-aed0-a834a3df9bd7.eot?#iefix");
+	src: url("futura-v2/a3756428-debf-4a86-aed0-a834a3df9bd7.eot?#iefix") format("eot"),
+		 url("futura-v2/588b3f3a-c193-4962-8e01-d4caef90f58b.woff") format("woff"),
+		 url("futura-v2/cdced636-4488-4c04-809c-e6e1379600ec.ttf") format("truetype"),
+		 url("futura-v2/34abe9e1-3810-4f50-9feb-63cd531bba3e.svg#34abe9e1-3810-4f50-9feb-63cd531bba3e") format("svg")
+}
+
+@font-face {
+	font-family: "Futura"; 
+	font-style: italic;
+	font-weight: 400;
+	src: url("futura-v2/18344c49-d09e-4b3c-b8a8-b8ab949de2f9.eot?#iefix");
+	src: url("futura-v2/18344c49-d09e-4b3c-b8a8-b8ab949de2f9.eot?#iefix") format("eot"),
+		 url("futura-v2/05f1af80-02cb-4d2b-992e-f7e9d678b7ad.woff") format("woff"),
+		 url("futura-v2/7fc6d4cf-507b-4169-b151-c4ad51e034ca.ttf") format("truetype"),
+		 url("futura-v2/38baa9f5-8717-437d-a2ad-2dd7c0db7965.svg#38baa9f5-8717-437d-a2ad-2dd7c0db7965") format("svg")
+}
+
+@font-face { 
+	font-family: "Futura";
+	font-weight: 600;
+	src: url("futura-v2/92596d86-eab0-4abb-ae87-3f8ee4d3dceb.eot?#iefix");
+	src: url("futura-v2/92596d86-eab0-4abb-ae87-3f8ee4d3dceb.eot?#iefix") format("eot"),
+		 url("futura-v2/f0ee8fd2-4e6c-4676-b99d-5995bd5d9cc8.woff") format("woff"),
+		 url("futura-v2/74b800bd-5c70-408f-951d-301b7a646abf.ttf") format("truetype"),
+		 url("futura-v2/ea9720c1-d44e-4f4d-b6ab-de57c634f922.svg#ea9720c1-d44e-4f4d-b6ab-de57c634f922") format("svg")
+}
+
+@font-face {
+	font-family: "Futura";
+	font-weight: 600;
+	font-style: italic;
+	src: url("futura-v2/84051870-f040-46c2-b101-b4523883aa10.eot?#iefix");
+	src: url("futura-v2/84051870-f040-46c2-b101-b4523883aa10.eot?#iefix") format("eot"),
+		 url("futura-v2/c3373c25-ce7b-4bab-9772-c7fc45e87d4d.woff") format("woff"),
+		 url("futura-v2/aa579620-3a5a-4db8-81ec-93602b05e7d9.ttf") format("truetype"),
+		 url("futura-v2/7a53be99-47b9-454b-adad-291cff98ef46.svg#7a53be99-47b9-454b-adad-291cff98ef46") format("svg")
+}
+
+@font-face {
+	font-family: "Futura";
+	font-weight: 800; 
+	src: url("futura-v2/95949987-060f-4fde-ae8a-c755c53d32c3.eot?#iefix"); 
+	src: url("futura-v2/95949987-060f-4fde-ae8a-c755c53d32c3.eot?#iefix") format("eot"),
+		 url("futura-v2/e0f29ba8-6773-4927-8374-b51a343706d7.woff") format("woff"),
+		 url("futura-v2/a4fbf6ad-5e14-4594-928b-c755c53d32c3.ttf") format("truetype"),
+		 url("futura-v2/350cd6ee-d050-4eba-87f0-c755c53d32c3.svg#350cd6ee-d050-4eba-87f0-4e576ced922e") format("svg")
+}
+
+@font-face {
+	font-family: 'Gess';
+	font-weight: 200;
+	font-style: normal;
+	src: url("gess/ge_ss_text_ultralight.eot");
+	src: url("gess/ge_ss_text_ultralight.eot?#iefix") format("embedded-opentype"),
+		 url("gess/ge_ss_text_ultralight.woff2") format("woff2"),
+		 url("gess/ge_ss_text_ultralight.woff") format("woff"),
+		 url("gess/ge_ss_text_ultralight.svg#ge_ssultralight") format("svg")
+		 
+}
+
+@font-face {
+	font-family: 'Gess';
+	font-weight: 400; 
+	font-style:normal;
+	src: url("gess/ge_ss_text_light.eot");
+	src: url("gess/ge_ss_text_light.eot?#iefix") format("embedded-opentype"),
+		 url("gess/ge_ss_text_light.woff2") format("woff2"),
+		 url("gess/ge_ss_text_light.woff") format("woff"),
+		 url("gess/ge_ss_text_light.svg#ge_sslight") format("svg")
+}
+
+@font-face { 
+	font-family: 'Gess';
+	font-weight: 600;
+	font-style: normal;
+	src: url("gess/ge_ss_text_medium.eot");
+	src: url("gess/ge_ss_text_medium.eot?#iefix") format("embedded-opentype"),
+		 url("gess/ge_ss_text_medium.woff2") format("woff2"),
+		 url("gess/ge_ss_text_medium.woff") format("woff"),
+		 url("gess/ge_ss_text_medium.svg#ge_ssmedium") format("svg")
+}
+
+@font-face {
+	font-family: 'Gess';
+	font-weight: 800;
+	font-style: normal;
+	src: url("gess/ge_ss_text_bold.eot");
+	src: url("gess/ge_ss_text_bold.eot?#iefix") format("embedded-opentype"),
+		 url("gess/ge_ss_text_bold.woff2") format("woff2"),
+		 url("gess/ge_ss_text_bold.woff") format("woff"),
+		 url("gess/ge_ss_text_bold.svg#ge_ssbold") format("svg")
+}
+
+@font-face {
+    font-family: 'Franklin Gothic Heavy';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Franklin Gothic Heavy'), local('FranklinGothicHeavy-Regular'),
+        url("franklin-gothic/franklin-gothic-heavy.woff") format("woff"),
+        url("franklin-gothic/franklin-gothic-heavy.ttf") format("truetype");
+}

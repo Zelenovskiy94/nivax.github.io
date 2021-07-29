@@ -54,8 +54,8 @@ h1.main, p.demos {
     height: 100vh;
 }
 .ani-in-out {
-	/* position: absolute;
-	top: 50%; */
+	position: absolute;
+	top: 50%;
 	line-height: 100px;
 	/* height: 90px; */
 	/* margin-top: -50px; */
@@ -87,29 +87,39 @@ h1.main, p.demos {
 }
 
 .sp-container h2.frame-1 {
-
+	top: 40%;
+	position: static;
 	-webkit-animation-delay: 0s;
 	-moz-animation-delay: 0s;
 	-ms-animation-delay: 0s;
 	animation-delay: 0s;
+}
+.sp-container h2.frame-2 {
+	/* top: 40%; */
+	height: 90px;
+	margin-top: -50px;
+	-webkit-animation-delay: 3s;
+	-moz-animation-delay: 3s;
+	-ms-animation-delay: 3s;
+	animation-delay: 3s;
 }
 .sp-container h2.frame-4 {
 	position: absolute;
 	top: 50%;
 	font-size: 200px;
 	white-space: nowrap;
-	-webkit-animation-delay: 3s;
-	-moz-animation-delay: 3s;
-	-ms-animation-delay: 3s;
-	animation-delay: 3s;
+	-webkit-animation-delay: 6s;
+	-moz-animation-delay: 6s;
+	-ms-animation-delay: 6s;
+	animation-delay: 6s;
 }
 .sp-container .frame-5 {
 	position: relative;
 	font-size: inherit;
-	-webkit-animation-delay: 3s;
-	-moz-animation-delay: 3s;
-	-ms-animation-delay: 3s;
-	animation-delay: 3s;
+	-webkit-animation-delay: 6s;
+	-moz-animation-delay: 6s;
+	-ms-animation-delay: 6s;
+	animation-delay: 6s;
 }
 .sp-container .frame-6 {
 	position: relative;
@@ -121,10 +131,10 @@ h1.main, p.demos {
 	-moz-animation: blurWFadeIn 1s ease-in backwards;
 	-ms-animation: blurWFadeIn 1s ease-in backwards;
 	animation: blurWFadeIn 1s ease-in backwards;
-	-webkit-animation-delay: 6s;
-	-moz-animation-delay: 6s;
-	-ms-animation-delay: 6s;
-	animation-delay: 6s;
+	-webkit-animation-delay: 9s;
+	-moz-animation-delay: 96s;
+	-ms-animation-delay: 9s;
+	animation-delay: 9s;
 }
 
 .sp-container .frame-6 > span {
@@ -135,10 +145,10 @@ h1.main, p.demos {
 	-moz-animation: blurW2FadeIn 1s ease-in backwards;
 	-ms-animation: blurW2FadeIn 1s ease-in backwards;
 	animation: blurW2FadeIn 1s ease-in backwards;
-	-webkit-animation-delay: 8s;
-	-moz-animation-delay: 8s;
-	-ms-animation-delay: 8s;
-	animation-delay: 8s;
+	-webkit-animation-delay: 11s;
+	-moz-animation-delay: 11s;
+	-ms-animation-delay: 11s;
+	animation-delay: 11s;
     width: 130px;
     margin-right: 10px;
     display: inline-block;
@@ -156,10 +166,10 @@ h1.main, p.demos {
 	-moz-animation: blurWFadeIn8 1s ease-in backwards;
 	-ms-animation: blurWFadeIn8 1s ease-in backwards;
 	animation: blurWFadeIn8 1s ease-in backwards;
-	-webkit-animation-delay: 9s;
-	-moz-animation-delay: 9s;
-	-ms-animation-delay: 9s;
-	animation-delay: 9s;
+	-webkit-animation-delay: 12s;
+	-moz-animation-delay: 12s;
+	-ms-animation-delay: 12s;
+	animation-delay: 12s;
 }
 
 
@@ -471,6 +481,7 @@ h2.frame-4 a {
 		top: 140%;
     	font-size: 90px;
 	}
+
 	@-webkit-keyframes blurW2FadeIn {
 		0% {
 			opacity: 0;
@@ -501,6 +512,9 @@ h2.frame-4 a {
 		font-size: 70px;
 	}
 
+
+
+
   }
 
   @media only screen and (max-width: 1200px) {
@@ -523,10 +537,7 @@ h2.frame-4 a {
 	.sp-container .frame-7 img {
 		height: 88px;
 	}
-	.sp-container h2.frame-1 {
-		position: relative;
-		top: -40px;
-	}
+
 
 
 	@-webkit-keyframes blurW2FadeIn {
@@ -569,6 +580,7 @@ h2.frame-4 a {
 		top: 124%;
 		font-size: 60px;
 	}
+
 
 	@-webkit-keyframes blurW2FadeIn {
 		0% {
@@ -628,6 +640,7 @@ h2.frame-4 a {
 		top: 110%;
     	font-size: 50px;
 	}
+
 
 
 	@-webkit-keyframes blurW2FadeIn {
@@ -710,13 +723,16 @@ h2.frame-4 a {
 		top: 95%;
 		font-size: 33px
 	}
-	.sp-container h2.frame-4 {
+	.sp-container h2.frame-4,
+	.sp-container h2.frame-2 {
 		top: 44%;
 	}
 	.sp-container h2.frame-1 {
 		position: relative;
-		top: -60px;
+		top: -70px;
 	}
+
+
 
 	
   }
@@ -740,6 +756,8 @@ h2.frame-4 a {
 	.sp-container .frame-7 img {
 		height: 34px;
 	}
+
+
 	@-webkit-keyframes blurW2FadeIn {
 		0% {
 			opacity: 0;
@@ -772,6 +790,7 @@ h2.frame-4 a {
 		top: 81%;
     	font-size: 24px;
 	}
+
   }
 
 
